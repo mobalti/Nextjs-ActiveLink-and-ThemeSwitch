@@ -1,0 +1,18 @@
+.ToggleButton {
+  background-color: var(--text-1);
+  color: var(--surface-1);
+  border-radius: var(--radius-2);
+  font-size: var(--font-size-2);
+  font-family: inherit;
+  font-weight: var(--font-weight-6);
+  padding: var(--size-2) var(--size-4);
+}
+
+.ToggleButton::after {
+  [data-theme='light'] & {
+    content: 'Light';
+  }
+  [data-theme='dark'] & {
+    content: 'Dark';
+  }
+}
