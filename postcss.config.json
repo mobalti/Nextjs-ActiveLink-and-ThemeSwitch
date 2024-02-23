@@ -2,14 +2,6 @@
   "plugins": [
     "postcss-flexbugs-fixes",
     "postcss-nesting",
-    [
-      "@csstools/postcss-global-data",
-      {
-        "files": ["./node_modules/open-props/media.min.css"]
-      }
-    ],
-
-    "postcss-custom-media",
 
     [
       "postcss-preset-env",
